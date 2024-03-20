@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zubimendi Administración Empresarial-Gestoría</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="bg-dark py-4">
+    <div class="container d-flex align-items-center">
+        <!-- Añade el video como fondo -->
+        <video autoplay muted loop id="background-video" class="me-3" style="width: 900px;">
+            <source src="logo2mp4.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+        <!--<div class="iconos">
+            <img src="logoultimo2.jpg" alt="Logo de Z.A.E Zubimendi Administración Empresarial">
+        </div>-->
+        <h1 class="text-white">Zubimendi Administración Empresarial.</h1>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-white" href="#servicios">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#nosotros">Sobre Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    
+
+    <section id="banner" class="bg-light py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Servicios de Gestoría Profesional</h2>
+            <p class="mb-4">Ofrecemos una amplia gama de servicios de gestoría para satisfacer tus necesidades financieras y fiscales.</p>
+            <a href="#contacto" class="btn btn-primary">Contáctanos</a>
+        </div>
+    </section>
+
+    <section id="servicios" class="py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Nuestros Servicios</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">Declaración de la Renta</li>
+                        <li class="list-group-item">Contabilidad para Autónomos</li>
+                        <li class="list-group-item">Microempresas</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">Pymes</li>
+                        <li class="list-group-item">Asesoramiento Fiscal</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="bg-light py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Sobre Nosotros</h2>
+            <p class="mb-4">Somos un equipo de profesionales dedicados a proporcionar servicios de gestoría de alta calidad y personalizados.</p>
+            <h3>Misión:</h3>
+            <p>Nuestra misión es acompañar a las empresas a lo largo de su ciclo de vida, priorizando la generación máxima de valor en su entorno. Además, nos comprometemos a ser un aliado fundamental en el crecimiento de nuestros clientes, brindándoles apoyo en su camino emprendedor y empresarial.</p>
+            <h3>Visión:</h3>
+            <p>Buscamos establecer una simbiosis que beneficie socialmente el entorno donde operan nuestros clientes. Esto se traduce en la creación de riqueza, la generación de empleo, la satisfacción de los inversores y un desarrollo sostenible para la sociedad y los grupos de interés involucrados.</p>
+            <h3>Valores:</h3>
+            <p>Nos regimos por valores fundamentales como el diálogo, la transparencia en la gestión, la orientación al cliente, la prestación de servicios de calidad y el respeto mutuo. Fomentamos la empatía hacia los empresarios, la tolerancia y la cortesía en todas nuestras interacciones. Estos valores guían nuestra relación simbiótica con los clientes, junto con el compromiso de estar cerca y comprometidos con todos los actores relacionados con ellos.</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Contacto</h2>
+            <p class="mb-4">¡Contáctanos hoy para obtener más información sobre nuestros servicios!</p>
+            <form action="enviar_correo.php" method="post" class="row g-3">
+                <div class="col-md-6">
+                    <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" name="email" class="form-control" placeholder="Correo electrónico" required>
+                </div>
+                <div class="col-12">
+                    <textarea name="mensaje" class="form-control" placeholder="Mensaje" required></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+
+            <p class="mt-4">Información de contacto:<br>
+                Correo electrónico: <a href="mailto:zubimendi@adminempresarial.onmicrosoft.com">zubimendi@adminempresarial.onmicrosoft.com</a><br>
+                Teléfono: 668510658
+            </p>
+
+
+        </div>
+    </section>
+    
+<!-- Aside con enlace a la Agencia Tributaria y enlace a chat de WhatsApp -->
+<aside class="bg-light py-5">
+    <div class="container">
+        <h2 class="section-title mb-4">Recursos</h2>
+        <ul class="list-group">
+            <!-- Comentario: Calendario -->
+            <!--<li class="list-group-item"><a href="#" id="ver-calendario" class="link-dark">Calendario</a></li>-->
+            <li class="list-group-item"><a href="https://www.agenciatributaria.es/" target="_blank" class="link-dark">Agencia Tributaria</a></li>
+            <!-- Enlaces adicionales -->
+            <li class="list-group-item"><a href="https://www.sepe.es/HomeSepe" target="_blank" class="link-dark">SEPE</a></li>
+            <li class="list-group-item"><a href="https://www.ine.es/" target="_blank" class="link-dark">INE</a></li>
+            <li class="list-group-item"><a href="https://sede.agenciatributaria.gob.es/Sede/Bibl_virtual/folletos/calendario_contribuyente.shtml" target="_blank" class="link-dark">Calendario Tributario</a></li>
+            <li class="list-group-item"><a href="https://www.seg-social.es/wps/portal/wss/internet/Inicio" target="_blank" class="link-dark">Seguridad Social</a></li>
+            <li class="list-group-item"><a href="https://sede.agenciatributaria.gob.es/Sede/Retenciones.shtml" target="_blank" class="link-dark">Retenciones</a></li>
+            <!-- Chat de WhatsApp -->
+            <li class="list-group-item"><a href="#" id="whatsapp" class="link-dark">Chat de WhatsApp</a></li>
+        </ul>
+    </div>
+</aside>
+
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <!-- Fecha y hora actual -->
+            <p id="fecha-hora" class="mb-0"></p>
+            <p class="mb-0">&copy; 2024 Zubimendi Administración Empresarial - Gestoría</p>
+        </div>
+    </footer>
+
+<!-- Caja de chat de consulta -->
+<!-- Caja de chat de consulta -->
+<div class="chat-box bg-dark text-light py-4 text-center">
+    <h3 class="mb-3">¿Necesitas ayuda?</h3>
+    <p class="mb-4">¡Haznos tu consulta aquí!</p>
+    <!-- Enlace a WhatsApp -->
+    <a href="https://wa.me/34668510658" class="btn btn-light" target="_blank">Abrir Chat</a>
+</div>
+
+
+    <!-- Bootstrap Bundle con Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+
+    // Función para obtener la fecha y hora actual
+    // Función para actualizar la fecha y hora actual
+    function actualizarFechaHora() {
+        var fechaHora = new Date();
+        var fecha = fechaHora.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+        var hora = fechaHora.toLocaleTimeString('es-ES', { hour: 'numeric', minute: 'numeric', second: 'numeric' });
+        document.getElementById('fecha-hora').innerHTML = 'Fecha y hora actual: ' + fecha + ', ' + hora;
+    }
+
+    // Llamar a la función para mostrar la fecha y hora actual al cargar la página
+    actualizarFechaHora();
+   
+    // Actualizar la fecha y hora cada segundo
+    setInterval(actualizarFechaHora, 1000);
+
+           // Enlace de WhatsApp
+           document.getElementById('whatsapp').addEventListener('click', function() {
+            // Reemplaza 'NUMERO_DE_WHATSAPP' con tu número de WhatsApp
+            var numeroWhatsApp = 34668510658;
+            window.open('https://wa.me/' + numeroWhatsApp);
+        });
+
+        // Inicializar el calendario
+        /*document.addEventListener('DOMContentLoaded', function() {
+            var calendarEl = document.getElementById('calendario');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth'
+                // Puedes agregar más opciones de configuración según tus necesidades
+            });
+            calendar.render();
+        });*/
+    </script>
+</body>
+</html>

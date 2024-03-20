@@ -1,0 +1,151 @@
+/* Estilos personalizados */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+#nosotros {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* Reemplaza 'ruta/de/la/imagen/logo.jpg' con la ruta de tu imagen */
+    background-size: contain; /* Ajusta el tamaño de la imagen */
+    background-position: left; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+.iconos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#ffffff;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+aside {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+aside h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+aside ul li a:hover {
+    color: #333;
+}
+
+.chat-box {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: none;
+}
+
+.chat-box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.chat-box p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.chat-box .btn {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #fff;
+}
+
+.chat-box .btn:hover {
+    background-color: #fff;
+    color: #333;
+}
